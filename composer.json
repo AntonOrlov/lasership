@@ -1,0 +1,21 @@
+{
+    "name": "antonorlov/lasership",
+    "description": "Unofficial implementation of Lasership API",
+    "keywords": ["lasership", "api", "shipping"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Orlov",
+            "email": "4eladi@gmail.com"
+        }
+    ],
+    "require": {
+		"php": ">=5.4",
+		"curl/curl": "^1.3"
+    },
+	"autoload": {
+        "psr-4": {
+            "AntonOrlov\\Lasership\\": "src/"
+        }
+    }
+}
