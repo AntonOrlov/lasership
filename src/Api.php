@@ -64,7 +64,7 @@ class Api
                 'Contact' =>  $order['to']['name'],
                 'Organization' => '',
                 'Address' => $order['to']['address'],
-                'Address2' => '',
+                'Address2' => $order['to']['address2'],
                 'PostalCode' => $order['to']['code'],
                 'City' => $order['to']['city'],
                 'State' => $order['to']['state'],
